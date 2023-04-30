@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161D2F;
+    padding: 0px 20px 0px 20px;
+    height: 50px;
+}
+
+
+.avatar {
+    width: 30px;
+    height: 30px;
+}
+
+.navigatio_icons * {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+.navigation-descktop {
+    display: block;
+    background-color: #161D2F;
+    width: 60px;
+    padding: 20px 0 20px 0;
+    display: none;
+}
+
+.icon-desctop {
+    display: block;
+    margin: 90px 10px 90px 15px;
+}
+
+.logo-desctop {
+    margin: 10px;
+}
+
+.avatar-descktop {
+    margin: 10px;
+}
+
+/* search */
+
+.search-container {
+    margin: 10px 20px 10px 20px;
+}
+
+.search-input {
+    width: 100%;
+    background: transparent;
+    height: 40px;
+    background-image: url('./assets/icon-search.svg');
+    background-repeat: no-repeat;
+    text-align: right;
+    border: none;
+    border-bottom: 1px solid rgb(24, 24, 138);
+    outline: none;
+    color: aliceblue;
+    font-size: 22px;
+}
+
+.categories{
+    width: 100%;
+    border: 1px solid white;
+}
+
+.card{
+    width: 100%;
+    height: 300px;
+    margin: 80px 0 80px 0;
+}
+
+.box{
+    padding: 0 20px 0 20px;
+    width: 100%;
+}
+
+.card > img{
+    width: 100%;
+}
+
+
